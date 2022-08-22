@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin : 0;
+    font-family:sans-serif;
+}
+body{
+    background: url("https://media.istockphoto.com/photos/asian-girl-using-laptop-computer-at-home-morning-picture-id1335893062?b=1&k=20&m=1335893062&s=170667a&w=0&h=6GTA-r92v_Ib57tWjNj7nqAr6ZbfSOSpPYAtk-lCvPc=");
+    background-size:cover;
+}
+.login-form{
+    width:350px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute ;
+    color:#1B2631;
+}
+.login-form h1{
+    color:#1B2631;
+    font-family: Comic Sans MS;
+    font-size: 40px;
+    text-align: center;
+    text-transform:uppercase;
+    margin: 40px 0;
+}
+.login-form p{
+    font-size:20px;
+    margin:15px 0;
+    padding: 15px 10px;
+    border:0;
+    outline:none;
+    border-radius:5px;
+}
+.login-form input{
+    font-size:16px;
+    width:100%;
+    padding: 15px 10px;
+    border:0;
+    outline:none;
+    border-radius:5px;
+
+}
+.login-form button{
+    font-size:18px;
+    font-weight:bold;
+    margin:20px 0;
+    padding:10px 15px;
+    width:50%;
+    border-radius:5px;
+    border:0;
+}

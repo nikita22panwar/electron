@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Electron | Buy latest smartwatches & more stuff</title>
+        <link rel="stylesheet" href="./homePage.css" />
+    </head>
+    <body class="homePageBody">
+        
+        <header>
+            <div class="logo">Electron</div>
+            <div id="searchBarWrapper">
+                <input
+                    id="searchBar"
+                    type="text"
+                    placeholder="Search ..."
+                />
+                <button>Search</button>
+            </div>
+            <div>
+                <button class="primaryButton"><a href="login.html" target="_blank">Login</a></button>
+				<button class="feedback"><a href="Feedback form.html" target="_blank">Feedback</a></button>
+                <button class="contact"><a href="contact us.html" target="_blank">Contact Us</a></button>
+                <button class="About"><a href="about us.html" target="_blank">About Us</a></button>
+                <button class="demo"><a href="demo.html" target="_blank">Demo</a></button>
+                <button class="demo"><a href="demo.html" target="_blank">Home</a></button>
+            </div>
+        </header>
+        
+        <main>
+            <!-- slider -->
+            <img src="" id="image">
+            <script type="text/javascript">
+                let image= document.getElementById('image');
+                let images=['images/banner1.png','images/banner2.png','images/banner3.png','images/img.jpg']
+                    setInterval(function(){
+                    let random =Math.floor(Math.random() * 4);
+                    image.src = images[random];
+                }, 800);
+            </script> 
+            <div id="bannerWrapper">
+               
+            <img src="images/banner2.png" alt="promotional banner">
+            <img src="images/abc.png">
+            </div>
+            <div id="productsContainer">
+                <div class="productCard">
+                    <div class="productCardImage">
+                        <img src="images/wat.jpg">
+                    </div>
+                    <div class="productCardInfo">
+                        <div class="productCardTitle">
+                            <h3>
+                                <a href="#">
+                                    <span>Smartwatch</span>
+                                    <span>Apple</span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="productCardPrice">
+                            <span>₹</span>
+                            <span>20,000</span>
+                        </div>
+                        <div class="productCardDescription">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
+                        <div class="productCardButtons">
+                            <button class="primaryButton"><a href="detail.html" target="_blank">Add to cart</a></button>
+                            <button class="secondaryButton">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productCard">
+                    <div class="productCardImage">
+                        <img src="images/camera.jpg" alt="product1" />
+                    </div>
+                    <div class="productCardInfo">
+                        <div class="productCardTitle">
+                            <h3>
+                                <a href="#">
+                                    <span>Treasure Box Mini 11</span>
+                                    <span>Instant Camera</span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="productCardPrice">
+                            <span>₹</span>
+                            <span>5,729</span>
+                        </div>
+                        <div class="productCardDescription">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
+                        <div class="productCardButtons">
+                            <button class="primaryButton"><a href="camera.html" target="_blank">Add to cart</a></button>
+                            <button class="secondaryButton">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productCard">
+                    <div class="productCardImage">
+                        <img src="images/lights4.jpg" alt="product1" />
+                    </div>
+                    <div class="productCardInfo">
+                        <div class="productCardTitle">
+                            <h3>
+                                <a href="#">
+                                    <span>LED Decorative Fairy  </span>
+                                    <span>Lights</span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="productCardPrice">
+                            <span>₹</span>
+                            <span>15,000</span>
+                        </div>
+                        <div class="productCardDescription">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
+                        <div class="productCardButtons">
+                            <button class="primaryButton"><a href="lights.html" target="_blank">Add to cart</a></button>
+                            <button class="secondaryButton">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="productCard">
+                    <div class="productCardImage">
+                        <img src="images/ipad4.jpg" alt="product1" />
+                    </div>
+                    <div class="productCardInfo">
+                        <div class="productCardTitle">
+                            <h3>
+                                <a href="#">
+                                    <span>Apple iPad Pro with </span>
+                                    <span>Apple</span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="productCardPrice">
+                            <span>₹</span>
+                            <span>67,390</span>
+                        </div>
+                        <div class="productCardDescription">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
+                        <div class="productCardButtons">
+                            <button class="primaryButton"><a href="ipad.html" target="_blank">Add to cart</a></button>
+                            <button class="secondaryButton">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productCard">
+                    <div class="productCardImage">
+                        <img src="images/air3.jpg" alt="product1" />
+                    </div>
+                    <div class="productCardInfo">
+                        <div class="productCardTitle">
+                            <h3>
+                                <a href="#">
+                                    <span>New Apple</span>
+                                    <span>Airpods</span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="productCardPrice">
+                            <span>₹</span>
+                            <span>17,500</span>
+                        </div>
+                        <div class="productCardDescription">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
+                        <div class="productCardButtons">
+                            <button class="primaryButton"><a href="air.html" target="_blank">Add to cart</a></button>
+                            <button class="secondaryButton">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productCard">
+                    <div class="productCardImage">
+                        <img src="images/mac.jpg" alt="product1" />
+                    </div>
+                    <div class="productCardInfo">
+                        <div class="productCardTitle">
+                            <h3>
+                                <a href="#">
+                                    <span>Apple MacBook Air</span>
+                                    <span>Laptop</span>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="productCardPrice">
+                            <span>₹</span>
+                            <span>92,900</span>
+                        </div>
+                        <div class="productCardDescription">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
+                        <div class="productCardButtons">
+                            <button class="primaryButton"><a href="mac.html" target="_blank">Add to cart</a></button>
+                            <button class="secondaryButton">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="productCard">
+                    <div class="productCardImage">
+                        <img src="C:\Users\NIKHIL\Documents\Her\images/n8.png" alt="product1" />
+                    </div>
+                    <div class="productCardInfo">
+                        <div class="productCardTitle">
+                            <h3>
+                                <a href="#">
+                                    <span>iphone 13 pro </span>
+                                    
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="productCardPrice">
+                            <span>₹</span>
+                            <span>1,00,000</span>
+                        </div>
+                        <div class="productCardDescription">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
+                        <div class="productCardButtons">
+                            <button class="primaryButton"><a href="iphone.html" target="_blank">Add to cart</a></button>
+                            <button class="secondaryButton">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productCard">
+                    <div class="productCardImage">
+                        <img src="images/TV.jpg" alt="product1" />
+                    </div>
+                    <div class="productCardInfo">
+                        <div class="productCardTitle">
+                            <h3>
+                                <a href="#">
+                                    <span>HD Ready Smart LED TV</span>
+                                    
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="productCardPrice">
+                            <span>₹</span>
+                            <span>85,000</span>
+                        </div>
+                        <div class="productCardDescription">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
+                        <div class="productCardButtons">
+                            <button class="primaryButton"><a href="TV.html" target="_blank">Add to cart</a></button>
+                            <button class="secondaryButton">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productCard">
+                    <div class="productCardImage">
+                        <img src="images/head.jpg" alt="product1" />
+                    </div>
+                    <div class="productCardInfo">
+                        <div class="productCardTitle">
+                            <h3>
+                                <a href="#">
+                                    <span>Bluetooth On Ear Headphones</span>
+                                    
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="productCardPrice">
+                            <span>₹</span>
+                            <span>15,000</span>
+                        </div>
+                        <div class="productCardDescription">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quisquam, quidem.
+                            </p>
+                        </div>
+                        <div class="productCardButtons">
+                            <button class="primaryButton"><a href="head.html" target="_blank">Add to cart</a></button>
+                            <button class="secondaryButton">Buy now</button>
+                        </div>
+                
+                    </div>
+                    
+                </div>
+                
+                <img src="images/banner5.png" alt="promotional banner">
+            </div>
+           
+        </main>
+        <footer>
+            <div class="footerContainer">
+                <div class="logo">Electron</div>
+
+                <div class="footerNav">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footerSocial">
+                    <ul>
+                        <li>
+                            <a href="#"> Facebook </a>
+                        </li>
+                        <li>
+                            <a href="#"> Twitter </a>
+                        </li>
+                        <li>
+                            <a href="#"> Instagram </a>
+                        </li>
+                        <li>
+                            <a href="#"> Youtube </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

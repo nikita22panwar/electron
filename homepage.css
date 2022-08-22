@@ -1,0 +1,211 @@
+.homePageBody {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.homePageBody h1,
+.homePageBody h2,
+.homePageBody h3,
+.homePageBody h4,
+.homePageBody h5,
+.homePageBody h6,
+.homePageBody p {
+    margin: 0;
+    padding: 0;
+}
+
+.primaryButton {
+    background-color: #00a1e4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.feedback {
+    background-color: #00a1e4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact {
+    background-color: #00a1e4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.About {
+    background-color: #00a1e4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.demo {
+    background-color: #00a1e4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.secondaryButton {
+    background-color: #fff;
+    color: #00a1e4;
+    border: 1px solid #00a1e4;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:active {
+    opacity: 50%;
+}
+/* header */
+header {
+    background-color: rgb(4, 45, 103);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 24px 0px;
+}
+.logo {
+    text-transform: uppercase;
+    color: rgb(209, 209, 209);
+    font-weight: bold;
+    font-style: italic;
+}
+
+#searchBarWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBar {
+    width: 300px;
+    padding: 8px 4px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+#searchBarWrapper button {
+    background-color: rgb(26, 85, 168);
+    color: rgb(209, 209, 209);
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* main */
+#bannerWrapper img {
+    width: 100%;
+}
+#productsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+.productCard {
+    width: 300px;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+    cursor: pointer;
+    margin: 42px;
+}
+.productCard:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px);
+}
+.productCardImage img {
+    width: 250px;
+    object-fit: cover;
+    margin-left: 25px;
+}
+.productCardInfo {
+    padding: 8px 14px;
+}
+.productCardInfo a {
+    color: black;
+    text-decoration: initial;
+}
+.productCardDescription > p {
+    font-size: 14px;
+    color: rgb(122, 122, 122);
+    margin: 12px 0px;
+}
+
+.productCardButtons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer {
+    background-color: black;
+    padding: 40px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerNav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerNav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.footerNav ul li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px 12px;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: #00a1e4;
+}
+
+
+
